@@ -37,7 +37,7 @@ pub fn onQueryGateway(_: *httpz.Request, res: *httpz.Response) !void {
     proto.lua_version = .{ .Const = "8516917" };
     proto.lua_url = .{ .Const = "https://autopatchcn.bhsr.com/lua/BetaLive/output_8516917_89a9da29e9bc" };
     proto.asset_bundle_url = .{ .Const = "https://autopatchcn.bhsr.com/asb/BetaLive/output_8515895_519c5179c9d5" };
-    proto.ex_resource_url = .{ .Const = "https://autopatchcn.bhsr.com/design_data/BetaLive/output_8515895_1e39e5df89e4" };
+    proto.ex_resource_url = .{ .Const = "https://autopatchcn.bhsr.com/design_data/BetaLive/output_8548479_447180fdc6fb" };
     
     proto.unk1 = true;
     proto.unk2 = true;
