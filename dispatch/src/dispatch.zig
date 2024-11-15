@@ -34,10 +34,10 @@ pub fn onQueryGateway(_: *httpz.Request, res: *httpz.Response) !void {
     proto.port = 23301;
     proto.ip = .{ .Const = "127.0.0.1" };
     //proto.ifix_version = .{ .Const = "0" };
-    proto.lua_version = .{ .Const = "8449174" };
-    proto.lua_url = .{ .Const = "https://autopatchcn.bhsr.com/lua/BetaLive/output_8449174_c5fe4343f9f8" };
-    proto.asset_bundle_url = .{ .Const = "https://autopatchcn.bhsr.com/asb/BetaLive/output_8448286_c2eb6137cc64" };
-    proto.ex_resource_url = .{ .Const = "https://autopatchcn.bhsr.com/design_data/BetaLive/output_8448286_10002cf1a8a3" };
+    proto.lua_version = .{ .Const = "8516917" };
+    proto.lua_url = .{ .Const = "https://autopatchcn.bhsr.com/lua/BetaLive/output_8516917_89a9da29e9bc" };
+    proto.asset_bundle_url = .{ .Const = "https://autopatchcn.bhsr.com/asb/BetaLive/output_8515895_519c5179c9d5" };
+    proto.ex_resource_url = .{ .Const = "https://autopatchcn.bhsr.com/design_data/BetaLive/output_8515895_1e39e5df89e4" };
     
     proto.unk1 = true;
     proto.unk2 = true;
